@@ -17,3 +17,5 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+I would start by just throwing random lists and inputs at it and see if they're getting sorted. Then I would compare the time complexity of this super algorthim to known algorthims and see how the sorts compare. I would then see if the time to sort any and all lists was linear. If the time complexity were all linear then I would see if I could find a worst case scenerio by reversing the orders or amount of elements, maybe put multiple duplicates in the list. 
+I don't think this is possible becasue with the known lower bound of $O(nlogn)$ in sorting and unless the reasearcher found a way to sort without comparing all the elements then the claim of $O(n)$ is bogus.
